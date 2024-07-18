@@ -1,0 +1,7 @@
+07.18 10:11
+<head>
+    <meta name="description" content="An amazing website showcasing various features.">
+    <meta name="keywords" content="amazing, website, features, HTML, CSS">
+    <meta name="author" content="Your Name">
+</head>
+

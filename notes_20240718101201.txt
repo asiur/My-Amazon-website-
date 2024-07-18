@@ -1,0 +1,6 @@
+07.18 10:11
+<!-- Include jQuery in the <head> section -->
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+

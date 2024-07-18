@@ -1,0 +1,10 @@
+07.18 10:10
+<footer id="contact">
+    <p>Contact us at: <a href="mailto: asiurrahamanx@gmail.com.com" >info@amazingwebsite.com</a></p>
+    <div>
+        <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+        <a href="https://facebook.com/yourprofile" target="_blank">Facebook</a>
+        <a href="https://instagram.com/yourprofile" target="_blank">Instagram</a>
+    </div>
+</footer>
+

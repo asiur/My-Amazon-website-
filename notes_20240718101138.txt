@@ -1,0 +1,25 @@
+07.18 10:11
+/* Add this to your CSS */
+@media (max-width: 600px) {
+    .container {
+        padding: 1em;
+    }
+
+    header img {
+        height: 30px;
+    }
+
+    nav a {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature {
+        margin-bottom: 1em;
+    }
+}
+
