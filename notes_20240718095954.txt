@@ -1,0 +1,113 @@
+07.18 09:59
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: #fff;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 2em;
+            text-align: center;
+        }
+        .container h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+        .container p {
+            font-size: 1.2em;
+            margin-bottom: 2em;
+        }
+        .container a {
+            text-decoration: none;
+            color: #ff7e5f;
+            background-color: #fff;
+            padding: 1em 2em;
+            border-radius: 25px;
+            transition: background-color 0.3s ease;
+        }
+        .container a:hover {
+            background-color: #ff7e5f;
+            color: #fff;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 2em;
+            background: rgba(0, 0, 0, 0.2);
+        }
+        .feature {
+            flex: 1;
+            margin: 0 1em;
+            padding: 1em;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        .feature h2 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+        }
+        .feature p {
+            font-size: 1em;
+        }
+        footer {
+            padding: 1em;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container" id="home">
+        <h1>Welcome to My Amazing Website</h1>
+        <p>This is a simple yet beautiful webpage created using HTML and CSS.</p>
+        <a href="#learn-more">Learn More</a>
+    </div>
+    <div class="features" id="features">
+        <div class="feature">
+            <h2>Feature 1</h2>
+            <p>Details about feature 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="feature">
+            <h2>Feature 2</h2>
+            <p>Details about feature 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="feature">
+            <h2>Feature 3</h2>
+            <p>Details about feature 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+    <footer id="contact">
+        <p>Contact us at: <a href="mailto:info@amazingwebsite.com">info@amazingwebsite.com</a></p>
+    </footer>
+</body>
+</html>
+
